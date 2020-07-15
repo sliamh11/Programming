@@ -1,0 +1,31 @@
+
+            int num, rem;
+            Console.WriteLine("Enter a number: ");
+            string str = Console.ReadLine();
+            bool nmr = int.TryParse(str, out num);
+            if (nmr == false)
+            {
+                Console.WriteLine("You didnt enter a number!");
+                return;
+            }
+
+            rem = num % 5;
+
+            switch (rem)
+            {
+                case 0:
+                    Console.WriteLine("Zero");
+                    break;
+                case 1:
+                    Console.WriteLine("One");
+                    break;
+                case 2:
+                    Console.WriteLine("Two");
+                    break;
+                case 3:
+                    Console.WriteLine("Three");
+                    break;
+                case 4:
+                    Console.WriteLine("Four");
+                    break;
+            }
