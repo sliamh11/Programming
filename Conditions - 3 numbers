@@ -1,0 +1,61 @@
+            int num1, num2, num3;
+            string str1, str2, str3;
+            bool nmr1, nmr2, nmr3;
+
+            Console.WriteLine("Welcome to my machine! Enter 3 numbers and I'll print them by order: ");
+            Console.Write("First number: ");
+            str1 = Console.ReadLine();
+            nmr1 = int.TryParse(str1, out num1);
+            if (nmr1 == false)
+            {
+                Console.WriteLine("The first number isnt an number. Please try again!");
+                return;
+            }
+
+            Console.Write("Second number: ");
+            str2 = Console.ReadLine();
+            nmr2 = int.TryParse(str2, out num2);
+            if (nmr2 == false)
+            {
+                Console.WriteLine("The Second number isnt an number. Please try again!");
+                return;
+            }
+
+            Console.Write("Third number: ");
+            str3 = Console.ReadLine();
+            nmr3 = int.TryParse(str3, out num3);
+            if (nmr3 == false)
+            {
+                Console.WriteLine("The third number isnt an number. Please try again!");
+                return;
+            }
+
+            if (num1 >= num2 & num2 > num3)
+            {
+                Console.WriteLine($"The order of the numbers is: {num3}, {num2}, {num1}.");
+            } 
+            else if (num2 >= num3 & num3 >= num1)
+            {
+                Console.WriteLine($"The order of the numbers is: {num1}, {num3}, {num2}.");
+            }
+            else if (num3 >= num2 & num2 >= num1)
+            {
+                Console.WriteLine($"The order of the numbers is: {num2}, {num1}, {num3}.");
+            }
+            else if (num2 >= num1 & num1 >= num3) 
+            {
+                Console.WriteLine($"The order of the numbers is: {num3}, {num1}, {num2}.");
+            }
+            else if (num1 >= num2 & num3 >= num2)
+            {
+                Console.WriteLine($"The order of the numbers is: {num2}, {num3}, {num1}.");
+            }
+            else if (num3 >= num2 & num2 >= num1)
+            {
+                Console.WriteLine($"The order of the numbers is: {num1}, {num2}, {num3}.");
+            }
+            else
+            {
+                Console.WriteLine("Something went wrong with the application - it'll exit now.");
+                return;
+            }
