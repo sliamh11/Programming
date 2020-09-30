@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-30T14:31:03.221Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="4yDfrEFNIv6fYY1cWIDK" version="13.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-30T14:31:24.292Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="3bENGutB4TlL0Pdtecbn" version="13.7.2" type="github">
   <diagram id="XSzSFXCYF5icY5SCVVYa" name="Page-1">
     <mxGraphModel dx="1422" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -300,9 +300,6 @@
         <mxCell id="OOOI8bQvhONiFojKNEv8-229" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.007;entryY=0.675;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="OOOI8bQvhONiFojKNEv8-232" target="OOOI8bQvhONiFojKNEv8-167" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OOOI8bQvhONiFojKNEv8-230" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="OOOI8bQvhONiFojKNEv8-110" target="OOOI8bQvhONiFojKNEv8-115" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="OOOI8bQvhONiFojKNEv8-153" value="HouseType" style="shape=table;html=1;whiteSpace=wrap;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fontStyle=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="750" y="260" width="120" height="110" as="geometry" />
         </mxCell>
@@ -334,6 +331,9 @@
               <mxPoint x="470" y="155" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="OOOI8bQvhONiFojKNEv8-230" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="OOOI8bQvhONiFojKNEv8-115" target="OOOI8bQvhONiFojKNEv8-110" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
